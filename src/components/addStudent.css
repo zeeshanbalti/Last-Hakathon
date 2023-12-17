@@ -1,0 +1,45 @@
+/* AddStudent.css */
+.add-student-container {
+    max-width: 700px;
+    height: 500px;
+    margin: 0 auto;
+    border-radius: 8px;
+    background-color: #f8f5f5;
+  }
+  .add-student-container  h2 {
+    text-align: center;
+    padding: 1rem;
+    color: rgb(49, 47, 47);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 40px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    margin-bottom: 5px;
+  }
+  
+  input {
+    margin-bottom: 10px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  

@@ -1,0 +1,148 @@
+.Student-List-Page{
+    display: flex;
+}
+.logo-twoButton{
+    background-color: #575252;
+    height: 100vh;
+    width: 20%;
+}
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #3498db;
+    color: #fff;
+  }
+  
+  .logo h1 {
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+font-family: 'Courier New', Courier, monospace;
+font-weight: bold;
+font-size: 50px;
+    /* color: red; */
+  }
+  
+  .nav-buttons {
+    display: block;
+  }
+  
+  .nav-button {
+    display: flex;
+    align-items: center;
+    margin-left: 25px;
+     /* margin-top: 3rem; */
+    color: #fff;
+    font-size: 15px;
+    text-decoration: none;
+  }
+  
+  .icon {
+    margin-right: 12px;
+    font-size: 30px;
+    margin-top: 3rem;
+  }
+  
+  /* Add some styling for better UI */
+  .nav-button:hover {
+    text-decoration: underline;
+  }
+  
+
+.student-list-container {
+    display: block;
+    width: 70%;
+  }
+  
+  .left-panel {
+    width: 100%;
+    padding: 5px;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+  }
+  
+  .Icon-Text{
+    display: flex;
+}
+
+.student-icon {
+    font-size: 5em;
+    /* margin-top: 50px; */
+}
+
+.student-text {
+    margin-top: 38px;
+    margin-left: 2rem;
+    font-size: 2.5em;
+    color: black;
+}
+
+.add-student-button {
+    margin-top: 50px;
+}
+
+.student-list {
+    width: 100%;
+    margin-left: 4rem;
+    background-color: #d6bfbf;
+    /* flex: 1; */
+    padding: 20px;
+  }
+  
+  /* Add the following styles for better alignment */
+  .student-table {
+    margin-top: 20px;
+  }
+  
+  .table-header {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    font-weight: bold;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+  }
+  
+  .action-icons {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .profile-image {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+  }
+  .logOut-btn{
+    margin-top: 20rem;
+      margin-left: 5rem;
+      /* padding: 30px; */
+  }
+  .logOut-btn button{
+    padding: 10px; background-color: #665f5f;
+    font-size: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  
+
+
+ 
